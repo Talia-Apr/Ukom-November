@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.taliaapr.wedone">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WedOne">
+        <activity android:name=".DaftarPenyewaActivity"
+            android:label="Daftar Penyewa"
+            android:parentActivityName=".ProdukSayaActivity"/>
+        <activity
+            android:name=".EditProdukActivity"
+            android:label="Edit Produk"
+            android:parentActivityName=".ProdukSayaActivity" />
+        <activity
+            android:name=".ProdukSayaActivity"
+            android:label="Produk Toko Saya"
+            android:parentActivityName=".AkunActivity" />
+        <activity
+            android:name=".TambahProdukActivity"
+            android:label="Tambah Produk"
+            android:parentActivityName=".ProdukSayaActivity" />
+        <activity
+            android:name=".TokoMenyewaActivity"
+            android:label="Toko Anda" />
+        <activity
+            android:name=".SelesaiPembayaranActivity"
+            android:label="Pembayaran Selesai" />
+        <activity
+            android:name=".VerifPembayaranActivity"
+            android:label="Verifikasi Pembayaran"
+            android:parentActivityName=".PembayaranDaftarActivity" />
+        <activity
+            android:name=".PembayaranDaftarActivity"
+            android:label="Pembayaran Pendaftaran"
+            android:parentActivityName=".DaftarTokoActivity" />
+        <activity
+            android:name=".DaftarTokoActivity"
+            android:label="Daftar Toko"
+            android:parentActivityName=".AkunActivity" />
+        <activity
+            android:name=".MenyewakanActivity"
+            android:label="Mulai Menyewakan"
+            android:parentActivityName=".AkunActivity" />
+        <activity
+            android:name=".PengaturanAkunActivity"
+            android:label="Ubah Profil"
+            android:parentActivityName=".AkunActivity" />
+        <activity
+            android:name=".DataSewaActivity"
+            android:label="Data Penyewaan"
+            android:parentActivityName=".HistoryActivity" />
+        <activity
+            android:name=".SewaActivity"
+            android:label="Baju Yang DiSewa" />
+        <activity
+            android:name=".BajuTokoDetail"
+            android:label="Detail Baju" />
+        <activity
+            android:name=".BajuModernDetail"
+            android:label="Detail Baju" />
+        <activity
+            android:name=".BajuAdatDetail"
+            android:label="Detail Baju" />
+        <activity
+            android:name=".BajuDetail"
+            android:label="Detail Baju"
+            android:parentActivityName=".HomeActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity
+            android:name=".TokoActivity"
+            android:label="Toko" />
+        <activity android:name=".BajuActivity" />
+        <activity
+            android:name=".AkunActivity"
+            android:label="My Account" />
+        <activity
+            android:name=".HistoryActivity"
+            android:label="History" />
+        <activity
+            android:name=".ModernActivity"
+            android:label="Modern"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AdatActivity"
+            android:label="Adat"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:windowSoftInputMode="adjustPan|adjustResize" />
+        <activity android:name=".DaftarActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

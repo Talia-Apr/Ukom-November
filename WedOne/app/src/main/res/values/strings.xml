@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">WedOne</string>
+    <string name="searchview">cari pakaian disini....</string>
+
+    <string-array name="jenisKelamin">
+        <item>Perempuan</item>
+        <item>Laki-Laki</item>
+    </string-array>
+
+    <string-array name="katBaju">
+        <item>Adat</item>
+        <item>Modern</item>
+    </string-array>
+
+    <string-array name="hrBuka">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jum\'at</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+
+    <string-array name="hrTutup">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jum\'at</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+
+</resources>
